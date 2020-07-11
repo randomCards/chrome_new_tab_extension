@@ -1,0 +1,10 @@
+{
+  "name": "Start Dashboard",
+  "version": "1.0",
+  "description": "A dashboard page ",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+  },
+  "permissions": ["declarativeContent", "storage"]
+}
